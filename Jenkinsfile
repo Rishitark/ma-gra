@@ -29,7 +29,7 @@ pipeline {
         stage('Run Application') {
             steps {
                 // Start the JAR application
-                sh 'java -jar build/libs/MyMavenApp-1.0-SNAPSHOT.jar'
+                sh 'java -jar build/libs/maven-gradle-1.0-SNAPSHOT.jar'
             }
         }
 
